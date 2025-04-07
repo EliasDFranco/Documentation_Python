@@ -16,7 +16,7 @@ class Calculadora:
         if self.n2 != 0:
             return self.n1  / self.n2
         else:
-            print("El segundo número debe ser divisle y no puede ser 0")
+                print("El segundo número debe ser divisle y no puede ser 0")
 
 def operaciones():  
     
