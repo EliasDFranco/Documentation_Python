@@ -34,3 +34,21 @@ class Persona:
         """Deleter para el atributo edad"""
         print("El atributo 'edad' ha sido eliminado")
         del self._edad
+        
+#Uso del ejemplo
+
+persona = Persona("Elias", 24)
+
+print(persona.nombre)
+print(persona.edad)
+
+#Modificamos los atributos usando setters
+persona.nombre = "Marcos"
+persona.edad = 29
+
+print(persona.nombre)
+print(persona.edad)
+
+#Eliminamos un atributo usando deleter
+
+del persona.edad
