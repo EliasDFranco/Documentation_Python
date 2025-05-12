@@ -1,7 +1,7 @@
 class Estudiante:
     def __init__(self, nombre, promedio):
-        self.nombre = nombre
-        self.promedio = promedio
+        self._nombre = nombre
+        self._promedio = promedio
         
     @property
     def promedio(self):

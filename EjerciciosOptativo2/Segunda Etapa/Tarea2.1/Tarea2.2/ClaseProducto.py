@@ -1,7 +1,7 @@
 class Producto:
     def __init__(self, nombre, precio):
-        self.nombre = nombre
-        self.precio = precio
+        self._nombre = nombre
+        self._precio = precio
         
     @property
     def precio(self):
